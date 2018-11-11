@@ -73,6 +73,7 @@ class _DNSPodLexiconClient(dns_common_lexicon.LexiconClient):
             'auth_username': api_id,
             'auth_token': api_token,
             'ttl': ttl,
+            'provider_name': 'dnspod',
         })
 
     def _handle_http_error(self, e, domain_name):
